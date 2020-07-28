@@ -63,7 +63,6 @@ border-top :1px solid #e9ecef;
 function TodoCreate() {
   const [open, setOpen] = useState(false);
   const onToggle = () => setOpen(!open);
-
   return (
     <CircleButton onClick={onToggle} open={open}>
       <MdAdd />
