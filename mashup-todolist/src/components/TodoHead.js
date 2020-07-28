@@ -32,7 +32,7 @@ function TodoHead() {
       <h1>2019년 7월 21일</h1>
       <div className="dat">일요일</div>
       <div className="tasks-left">할 일 2개 남음</div>
-      <hr></hr>
+      <hr />
     </TodoHeadBlock>
   );
 }
